@@ -1,6 +1,6 @@
 <template>
   <div class="md:flex">
-    <template v-for="(item, index) in growCardList" :key="item.title">
+<!--    <template v-for="(item, index) in growCardList" :key="item.title">
       <Card
         size="small"
         :loading="loading"
@@ -22,7 +22,7 @@
           <CountTo prefix="$" :startVal="1" :endVal="item.total" />
         </div>
       </Card>
-    </template>
+    </template>-->
   </div>
 </template>
 <script lang="ts" setup>

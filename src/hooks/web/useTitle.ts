@@ -27,8 +27,9 @@ export function useTitle() {
         return;
       }
 
-      const tTitle = t(route?.meta?.title as string);
-      pageTitle.value = tTitle ? ` ${tTitle} - ${title} ` : `${title}`;
+      // const tTitle = t(route?.meta?.title as string);
+      // pageTitle.value = tTitle ? ` ${tTitle} - ${title} ` : `${title}`;
+      pageTitle.value = `${title}`;
     },
     { immediate: true },
   );
